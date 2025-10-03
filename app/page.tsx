@@ -1,6 +1,6 @@
 // app/page.tsx
 export default async function Home() {
-  const apiUrl = process.env.NEXT_PUBLIC_API_URL; // viene del .env
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL; // 👈 variable de entorno
 
   let data = { message: "No se pudo conectar al backend" };
 
